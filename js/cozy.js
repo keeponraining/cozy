@@ -1,0 +1,57 @@
+$(function(){
+    $("#header_inner>#menu>li").hover(function(){
+        $(".all").stop().slideDown();
+    },
+    function(){
+        $(".all").stop().slideUp();
+    });
+});
+$(function(){
+    $("#forte_container>.box1>.forte_img").mouseenter(function(){
+        $("#forte_container>.box1>.forte_img>.forte_video").show();
+    });
+});
+$(function(){
+    $("#forte_container>.box1>.forte_img").mouseleave(function(){
+        $("#forte_container>.box1>.forte_img>.forte_video").hide();
+    });
+});
+$(function(){
+    $("#forte_container>.box2>.forte_img2").mouseenter(function(){
+        $("#forte_container>.box2>.forte_img2>.forte_video2").show();
+    });
+});
+$(function(){
+    $("#forte_container>.box2>.forte_img2").mouseleave(function(){
+        $("#forte_container>.box2>.forte_img2>.forte_video2").hide();
+    });
+});
+$(function(){
+    $("#forte_container>.box3>.forte_img").mouseenter(function(){
+        $("#forte_container>.box3>.forte_img>.forte_video").show();
+    });
+});
+$(function(){
+    $("#forte_container>.box3>.forte_img").mouseleave(function(){
+        $("#forte_container>.box3>.forte_img>.forte_video").hide();
+    });
+});
+$(function(){
+	$("#notice> ul> li").click(function(){
+		$(this).children(".text_info").slideToggle();
+		$(this).siblings().children(".text_info").slideUp();
+	});
+});
+$(function(){
+	$("#notice> ul> li").click(function(){
+		$(this).toggleClass("turn");
+		if($(this).hasClass("turn")===true){
+				$(this).siblings().removeClass("turn");
+		}
+	});
+});
+$(function(){
+    $("#wrap>ul>li>a").click(function(){
+        $(this).parent().addClass("on").siblings().removeClass("on");
+    });
+});

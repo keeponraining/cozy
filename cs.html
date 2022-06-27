@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1350">
+    <title>COZY UP TO NATURE</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!--마우스휠 애니메이션-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--js-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/cozy.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="sub_style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="header_inner">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="cozy logo">
+                </a>
+            </div><!--logo-->
+            <ul id="menu">
+                <li>
+                    <a href="about.html#header_banner">ABOUT</a>
+                    <ul id="sub" class="all">
+                        <li><a href="about.html#about_cozy">WHAT'S COZY?</a></li>
+                        <li><a href="about.html#cozy_ci">COZY UP TO NATURE</a></li>
+                        <li><a href="about.html#forte">OUR FORTE</a></li>
+                    </ul><!--sub-->
+                </li>
+                <li>
+                    <a href="shop.html#header_banner">SHOP</a>
+                    <ul id="sub" class="all">
+                        <li><a href="shop.html#favorites">OUR FAVORITES</a></li>
+                        <li><a href="shop.html#product">OUR PRODUCT</a></li>
+                        <li><a href="shop.html#project">OUR PROJECT</a></li>
+                    </ul><!--sub-->
+                </li>
+                <li>
+                    <a href="special.html#header_banner">SPECIAL</a>
+                    <ul id="sub" class="all">
+                        <li><a href="special.html#event">OUR EVENT</a></li>
+                        <li><a href="special.html#mind">OUR MIND</a></li>
+                        <li><a href="special.html#site">RECOMMENDATION</a></li>
+                    </ul><!--sub--></li>
+                <li>
+                    <a href="#header_banner">CS CENTER</a>
+                    <ul id="sub" class="all">
+                        <li><a href="#notice">OUR NOTICE</a></li>
+                        <li><a href="#as">AFTER SERVICE</a></li>
+                        <li><a href="#store">OUR STORE</a></li>
+                    </ul><!--sub-->
+                </li>
+            </ul><!--menu-->
+            <ul id="menu_icon">
+                <li><a href="index.html">
+                    <img src="images/icon_home.png" alt="my page">
+                </a></li>
+                <li><a href="shop.html">
+                    <img src="images/icon_cart.png" alt="my cart">
+                </a></li>
+                <li><a href="#store">
+                    <img src="images/icon_search.png" alt="search">
+                </a></li>
+            </ul><!--menu_icon-->
+        </div><!--header_inner-->
+    </div><!--header-->
+    <div id="header_banner">
+        <img src="images/sub_banner4.jpg" alt="special banner">
+        <div id="header_banner_txt">
+            <h1>CS CENTER</h1>
+            <p>
+                COZY는 언제나 곁에서 귀를 기울이며 서비스에 최선을 다하고 있습니다.
+            </p>
+        </div><!--header_banner_txt-->
+    </div><!--header_banner-->
+    
+    <!--notice-->
+    <div id="notice">
+        <div id="sub_title">
+            <img src="images/notice.png" alt="notice">
+            <p>
+                COZY의 새로운 소식과 행사 등 다양한 정보를 안내합니다.
+            </p>
+        </div><!--sub_title-->
+        <div class="notice_top">
+            <p>
+                <select name="전체" id="all">
+                    <option value="10">전체</option>
+                    <option value="20">배송</option>
+                    <option value="30">스토어 오픈</option>
+                </select>
+            </p>
+            <p>
+                <input type="search" class="search1" placeholder="검색어를 입력하세요">
+            </p>
+            <p>
+                <a href="#notice" class="search2">
+                    검색
+                </a>
+            </p>
+        </div><!--notice_top-->
+        <ul>
+            <li>
+                <div class="title title2">
+                    <div class="title_in1">3</div>
+                    <div class="title_in2">2022.04.18</div>
+                    <div class="title_in3">택배 파업으로 인한 배송 지연 안내</div>
+                    <div class="plus plus1"><img src="images/plus.jpg" alt="plus"></div>
+                </div>
+                <div class="text_info">
+                    <h3>[ 택배 파업으로 배송 지연 안내 ]</h3>
+                    <h4>※ 기 간 : 04/20(수) ~ 04/30(토)</h4>
+                    <h4>※ 상황에 따라 제한기간 변경 가능합니다.</h4>
+                    <h4 class="info_p">※ 배송 지연 구역 하단을 확인해주세요.</h4>
+                    <p>
+                        택배 파업으로 인한 배송이 지연되고 있습니다. <br>
+                        부득이하게 배송 및 수거가 늦어진점 고객님들의 양해부탁드립니다. <br>
+                        정상화 되면 빠르게 배송할 수 있도록 하겠습니다.
+                    </p>
+                    <p>
+                        1. 동남권 TML 관할 구역 <br>
+                        2. 창원지점 <br>
+                        3. 서울서부지점 <br>
+                        4. 이천지점 <br>
+                        5. 일산지점 <br>
+                        6. 서울동부지점 <br>
+                        7. 부산서부지점 <br>
+                        8. 울산지점 <br>
+                    </p>
+                    <h4 class="info_p2">
+                        고객 서비스 최우선 정책에 따라 법과 원칙에 입각하여 <br>
+                        상황이 조기에 정상화되도록 최선의 노력을 다하겠습니다.
+                    </h4>
+                </div>
+            </li>
+            <li>
+                <div class="title">
+                    <div class="title_in1">2</div>
+                    <div class="title_in2">2022.02.14</div>
+                    <div class="title_in3">부산 프리미엄 아울렛 팝업 스토어 오픈</div>
+                    <div class="plus plus2"><img src="images/plus.jpg" alt="plus"></div>
+                </div>
+                <div class="text_info">
+                    <h3>
+                        많은 유저분들의 성원에 힘입어, 부산 프리미엄 아울렛에서 팝업 스토어를 오픈합니다. <br>
+                        다양한 COZY의 제품을 전시하고, 판매를 하고 있으므로 많은 관심 부탁드립니다.
+                    </h3>
+                    <h4 class="info_p3">※ 기 간 : 02/16(수) ~ 07/31(일)</h4>
+                    <p>
+                        -부산 프리미엄 아울렛 <br>
+                        주소 : 부산광역시 기장군 장안읍 정관로 1133 <br>
+                        영업시간 : 매일 오전 10:30 ~ 오후 09:00 <br>
+                        연락처 : 1644-4001
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="title title3">
+                    <div class="title_in1">1</div>
+                    <div class="title_in2">2022.01.10</div>
+                    <div class="title_in3">2022 설 연휴 배송 및 휴무 안내</div>
+                    <div class="plus plus3"><img src="images/plus.jpg" alt="plus"></div>
+                </div>
+                <div class="text_info">
+                    <p>
+                        안녕하십니까, COZY 입니다. 2022년 설 연휴 배송 및 휴무에 대하여 안내 말씀 드립니다. <br>
+                        2022년의 설 연휴는 2022년 01월 31일부터 02월 02일까지로, 물류 센터와 온라인 스토어의 휴무로 인하여, 2022년 01월 26일 배송이 마감됩니다. <br>
+                        2022년 01월 26일 14시 이전의 주문은 당일까지 배송이 접수 완료 되며, 이후의 주문은 설 연휴가 끝난 3일부터 순차적으로 발송이 진행됩니다. <br>
+                        (순차적으로 빠른 출고를 진행하나, 주문량에 따라 배송이 느려질 수 있는 점, 양해 부탁드립니다.) <br>
+                    </p>
+                    <p>
+                        온라인 스토어와 고객센터, 전국에 위치한 COZY의 직영 스토어는 2022년 01월 31일부터 02월 02일까지 휴무입니다. <br> 
+                        참고하셔서 방문해주시길 부탁드립니다.
+                    </p>
+                    <p>
+                        새해를 맞이하여 그동안 보내주신 성원에 깊은 감사를 드립니다. 2022년에도 고객님들과 함께하는 COZY가 되겠습니다. <br>
+                        행복하고 건강한 설 연휴 보내시길 바랍니다. 새해 복 많이 받으세요.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div><!--notice-->
+
+    <!--as center-->
+    <div id="as">
+        <div id="sub_title">
+            <img src="images/as.png" alt="as center">
+            <p>
+                COZY의 모든 A/S 관련 업무는 공식 홈페이지에서만 진행하고 있습니다.
+            </p>
+        </div><!--sub_title-->
+        <div class="as_banner">
+            <img src="images/as banner.jpg" alt="as banner">
+        </div><!--as_banner-->
+        <div class="as_box">
+            <div class="as_box1" data-aos="fade-right">
+                <h2 class="as_t">01. A/S 신청 접수 방법</h2>
+                <p>
+                    1) COZY 홈페이지에서 A/S 안내 및 방법을 숙지 <br>
+                    2) A/S 제품군 선택 <br>
+                    3) COZY 제품군에서 해당하는 제품 선택 <br>
+                    4) A/S를 해야하는 부분을 요청사항 중에서 하나 선택 <br>
+                    5) 수리의뢰내용 기입 <br>
+                    6) 제품정보에서 구매처를 선택 <br>
+                    7) 구매일자를 입력
+                </p>
+            </div><!--box1-->
+            <div class="as_box2" data-aos="fade-left" data-aos-delay="200">
+                <h2 class="as_t">02. A/S 서비스 진행 절차</h2>
+                <div class="circle">
+                    <img src="images/as circle1.png"data-aos="zoom-in" data-aos-delay="700" alt="step1">
+                    <img src="images/as circle2.png" data-aos="zoom-in" data-aos-delay="800" alt="step2">
+                    <img src="images/as circle3.png" data-aos="zoom-in" data-aos-delay="900" alt="step3">
+                    <img src="images/as circle4.png" data-aos="zoom-in" data-aos-delay="1000" alt="step4">
+                    <img src="images/as circle5.png" data-aos="zoom-in" data-aos-delay="1100" alt="step5">
+                </div><!--circle-->
+            </div><!--box2-->
+        </div><!--as_box-->
+        <div class="as_box">
+            <div class="as_box3" data-aos="fade-right" data-aos-delay="300">
+                <h2 class="as_t">03. A/S 유의 사항</h2>
+                <p class="as_t2">COZY는 다음과 같이 제품을 보증합니다.</p>
+                <p>
+                    1. 모든 COZY 제품은 일정시간을 테스트를 거쳐 유통됩니다. <br>
+                    2. 보증기간은 COZY 공식 취급점에서 구입한 날로부터 각 제품의 워런티 기간에 따라 적용됩니다. <br>
+                    3. 보증기간동안 발생한 자재 및 제작과정에서 발생하는 결함은 수리, 교환 순서로 무상 A/S를 받을 수 있습니다. <br>
+                    4. 소비자 과실 또는 부주의로 인한 손상, 일반적인 마모, 제 3자에 의한 임의적인 수리 등은 무상 서비스가 <br> 
+                    불가능합니다. <br>
+                </p>
+            </div><!--box3-->
+            <div class="as_box4" data-aos="fade-left" data-aos-delay="400">
+                <h2 class="as_t">04. 각 제품군 별 제품 워런티</h2>
+                <p class="as_t2">COZY에서는 다음과 같은 워런티 기간을 명시합니다.</p>
+                <p>
+                    텐트 및 타프 : 모든 텐트 및 타프 2년 <br>
+                    체어 : 모든 체어 2년 <br>
+                    기타 제품류 : 2년 <br>
+                </p>
+            </div><!--box4-->
+        </div><!--as_box-->
+    </div><!--as-->
+
+    <!--our store-->
+    <div id="store">
+        <div id="store_inner">
+            <div id="sub_title">
+                <img src="images/store.png" alt="store">
+                <p>
+                    전국에 위치한 COZY의 스토어를 알려드립니다.
+                </p>
+            </div><!--sub_title-->
+            <div class="map">
+                <div class="map_img">
+                    <img src="images/map.jpg" alt="store map">
+                </div><!--map_img-->
+                <div class="map_search">
+                    <h1>매장 검색하기</h1>
+                    <p>
+                        <select name="도시" id="search_1">
+                            <option value="10">도,시 선택하기</option>
+                            <option value="20">서울특별시</option>
+                            <option value="30">대전광역시</option>
+                            <option value="40">부산광역시</option>
+                        </select>
+                    </p>
+                    <p>
+                        <select name="구군" id="search_2">
+                            <option value="10">구, 군 선택하기</option>
+                            <option value="20">-</option>
+                            <option value="30">-</option>
+                            <option value="40">-</option>
+                        </select>
+                    </p>
+                    <div class="search_3">
+                        <p>
+                            <input type="search" class="search_txt" placeholder="매장명을 입력해주세요.">
+                        </p>
+                        <p>
+                            <a href="#store" class="search_btn">
+                                검색하기
+                            </a>
+                        </p>
+                    </div><!--search_3-->
+                </div><!--map_search-->
+            </div><!--map-->
+            <div class="store_table">
+                <table>
+                    <tr>
+                        <th>매장명</th>
+                        <th>연락처</th>
+                        <th>주소</th>
+                        <th>영업시간</th>
+                    </tr>
+                    <tr>
+                        <td>COZY 부산본점</td>
+                        <td>051-246-1650</td>
+                        <td>부산광역시 중구 중앙대로 26, 다원중앙타워 10층</td>
+                        <td>평일 10:00 ~19:00</td>
+                    </tr>
+                    <tr>
+                        <td>트램핑코리아</td>
+                        <td>070-7766-8833</td>
+                        <td>서울특별시 송파구 충민로 66 (문정동, 가든파이브라이프)  Y-9140</td>
+                        <td>평일 10:00 ~17:00</td>
+                    </tr>
+                    <tr>
+                        <td>문리버마운틴</td>
+                        <td>070-8847-1062</td>
+                        <td>대전광역시 서구 원도안로224번안길 37(도안동) 스마트빌 1층</td>
+                        <td>평일 10:30 ~19:00</td>
+                    </tr>
+                </table>
+            </div><!--store_table-->
+        </div><!--store_inner-->
+    </div><!--store-->
+    <div id="newsletter">
+        <img src="images/news letter.jpg" alt="news letter bg">
+        <div class="news_txt">
+            <h1>뉴스레터에 가입하세요.</h1>
+            <div class="subscribe">
+                <input type="search" class="email_txt" placeholder="여기에 이메일을 입력해주세요.">
+                <a href="#newsletter">구독하기</a>
+            </div>
+        </div><!--news_txt-->
+    </div><!--newsletter-->
+
+    <!--footer-->
+    <div id="footer">
+        <div id="footer_inner">
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="images/footer_logo.png" alt="footer_logo">
+                </a>
+            </div><!--footer_logo-->
+            <div class="footer_txt">
+                <ul class="footer_clause">
+                    <li><a href="#footer">회사소개</a></li>
+                    <li><a href="#footer">이용약관</a></li>
+                    <li><a href="#footer">개인정보처리방침</a></li>
+                    <li><a href="#footer">전자금융거래약관</a></li>
+                </ul><!--footer_clause-->
+                <p>
+                    COZY (cozyuptonature) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address : 부산광역시 중구 중앙대로 26, 다원중앙타워 10층 <br>
+                    대표이사 : 이은비 &nbsp;&nbsp; 사업자번호 : 602-90-54171 &nbsp;&nbsp; 통신판매업 신고번호 : 부산중구 0058 <br>
+                    E-mail : keepon_raining@naver.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TEL : 051-246-1650
+                </p>
+                <h4>
+                    CopyrightsⓒCOZYUPTONATURE All Rights Reserved
+                </h4>
+            </div><!--footer_txt-->
+            <div class="contact">
+                <h4>CONTACT US</h4>
+                <ul class="sns_icon">
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="images/icon_instagram.png" alt="instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank">
+                            <img src="images/icon_twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/cjXGIHdWO2k" target="_blank">
+                            <img src="images/icon_youtube.png" alt="youtube">
+                        </a>
+                    </li>
+                </ul><!--sns_icon-->
+                <p>
+                    @cozyuptonature
+                </p>
+            </div><!--contact-->
+        </div><!--footer_inner-->
+    </div><!--footer-->
+
+    <div id="top_btn">
+        <a href="#header">
+            <img src="images/top.png" alt="top">
+        </a>
+    </div><!--top_btn-->
+    <script>
+        AOS.init(); //마우스 휠 애니메이션
+    </script>
+</body>
+</html>

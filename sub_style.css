@@ -538,7 +538,7 @@ html{
 .event_txt3{
     position: absolute;
     top: 10%;
-    left: 25px;
+    left: 10px;
 }
 .event_txt3>h1{
     font-size: 20px;
@@ -555,7 +555,7 @@ html{
 .event_txt4{
     position: absolute;
     top: 10%;
-    left: 25px;
+    left: 10px;
 }
 .event_txt4>h1{
     font-size: 20px;
